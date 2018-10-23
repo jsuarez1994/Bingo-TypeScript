@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Configuracion</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/0.20.19/system.js"></script>
+    <script src="dist/js/systemJSConfig.js"></script>
+    <script src="dist/js/config.js"></script>
+    <link rel="stylesheet" href="dist/src/CSS/config.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Teko" rel="stylesheet">
+</head>
+<body>
+    <a href="index.html" id="logo"><img src="dist/src/IMAGES/Bingo.png" alt="bingo"></a>
+
+    <div id="config">
+        <center><h1>CONFIGURACIÓN</h1></center>
+            <label>Numero de Boletos: </label><input type="number" name="numBoletos" value="1" id="numBoletos" min="1" max="4"><br>
+            <div id="nombreBoletos">
+            </div>
+            <br>
+                <hr> 
+            <br>
+            <label>Velocidad numeros:</label><br>
+            <center>
+                <label class="opc">Lenta</label> <input type="radio" name="velocidad" id="3"><br>
+                <label class="opc">Normal</label><input type="radio" name="velocidad" id="2" checked><br>
+                <label class="opc">Rápida</label><input type="radio" name="velocidad" id="1"><br>
+            </center>
+            <label>Apuesta por boleto: </label><input type="number" name="apuesta" id="apuesta"> <br>
+            <label>Premio Línea (%) </label> <input type="number" name="porcentajeLinea" value="25" id="porcentajeLinea"><br>
+    </div>
+            <center><input type="button" value="Guardar Cambios" id="configuracion"></center>
+</body>
+</html>

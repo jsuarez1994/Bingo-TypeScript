@@ -1,0 +1,201 @@
+/*------------------------FONDO------------------------*/
+body {
+	width: 100wh;
+	height: 100vh;
+	color: #fff;
+	background: linear-gradient(50deg, rgb(63, 36, 56), rgb(0, 21, 46));
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 5s ease infinite;
+	-moz-animation: Gradient 5s ease infinite;
+	animation: Gradient 5s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+img[alt="bingo"]{
+    float: left;
+}
+
+/*------------------------SECCION NUMEROS------------------------*/
+/*TODOS NUMEROS*/
+#todosNumeros > table{
+    width: 65%;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px;
+    background: rgb(207, 117, 0);
+    border-radius: 5px;
+}
+
+#todosNumeros > table > tr{
+    background: black
+}
+
+#todosNumeros > table > tr > td{
+    padding: 8px;
+}
+
+#bote{
+    width: 35%;
+    margin: 2% auto;
+    position: relative;
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    font-size: 2em;
+    color: green;
+    background: white;
+    border-radius: 3px;
+}
+
+#linea{
+    width: 35%;
+    margin: 1% auto;
+    position: relative;
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    font-size: 2em;
+    color: green;
+    background: white;
+    border-radius: 3px;
+}
+
+
+
+/*NUMERO A MOSTRAR*/
+#numeroMostrar{
+    text-align: center;
+    font-size: 7em;
+    font-family: "Teko";
+    text-shadow: 10px 10px 30px white;
+}
+
+/*------------------------SECCION BOLETOS------------------------*/
+.usuarios{
+    font-size: 5em;
+    font-family: "Teko";
+    margin-bottom: -5%;
+    text-decoration: underline;
+}
+
+#boletos{
+    width: 60%;
+}
+
+#boletos > div > table{
+    width: 100%;
+    font-size: 1.5em;
+    color: white;
+    background: rgb(58, 2, 2);
+    padding: 25px;
+    border-radius: 15px;
+    font-family: 'Quicksand';
+    text-align: center;
+}
+
+#boletos > div > table > tr{
+    background: rgb(87, 52, 52);
+}
+
+#boletos > div > table > tr > td{
+    padding: 5px;
+}
+
+.esconder{
+    text-align: center;
+    background-color: rgb(32, 1, 1);
+}
+
+
+
+
+/*------------------------BOTONES------------------------*/
+#botones{
+    width: 60%;
+    position: relative;
+    margin: 0 auto;
+}
+
+input{
+    cursor:pointer;
+    padding: 10px 35px;
+    border: 0px;
+    font-family: "Dosis";
+    border-radius: 5px;
+    font-size: 1.5em;
+    margin-top:1%;
+}
+
+input:hover{
+    border-bottom: 3px solid white;
+}
+
+#init{
+    background: linear-gradient(20deg, rgb(16, 68, 2), rgb(101, 195, 84));
+    color: white;
+}
+
+#stop{
+    background: linear-gradient(20deg, rgb(100, 1, 1), rgb(255, 98, 111));
+    color: white;
+}
+
+img[alt="cambio"]{
+    cursor:pointer;
+    width: 3%;
+}
+
+/*------------------GANADOR------------------*/
+#res{
+    background: white;
+    color: black;
+    box-shadow: 10px 10px 50px gray;
+    font-family: "Teko";
+    width: 25%;
+    border-radius: 3%;
+    position: relative;
+    margin-top: 10%;
+}
+
+#ganador{
+    font-size: 4em;
+}
+
+#cuadroLinea{
+    background: white;
+    color: black;
+    box-shadow: 10px 10px 50px gray;
+    font-family: "Teko";
+    width: 15%;
+    border-radius: 3%;
+    position: relative;
+    margin-top: 10%;
+}
+
+#gLinea{
+    font-size: 2em;
+}

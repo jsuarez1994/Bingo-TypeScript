@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>INICIO JUEGO</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/0.20.19/system.js"></script>
+    <script src="dist/js/systemJSIndex.js"></script>
+    <script src="dist/js/index.js"></script>
+    <link rel="stylesheet" href="dist/src/CSS/inicio.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Teko" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+</head>
+<body>
+    
+    <a href="index.html" id="logo"><img src="dist/src/IMAGES/Bingo.png" alt="bingo"></a>
+    <center>
+
+        <div id="res">
+            <h1>El ganador es</h1>
+        <div id="ganador"></div>
+        </div>
+    
+        <div id="cuadroLinea">
+            <h1>El ganador de la linea es</h1>
+        <div id="gLinea"></div>
+        </div>
+
+
+<div id="ocultarAlMostrarGanador">
+        <div id="botones">
+            <input type="button" value="INICIAR BINGO" id="init">
+            <input type="button" value="PARAR BINGO" id="stop">
+        </div>
+    <table width="80%" id="tablaMaestra">
+    <tr>
+        <td>
+            <div id="boletos">
+            </div>
+        </td>
+
+        <td>
+            <div id="mostrarNumeros">
+                <div id="numeroMostrar"></div>
+
+                
+                <div id="todosNumeros">
+                    
+                </div>
+                <div id="bote"></div>
+                <div id="linea"></div>
+            </div>
+        </td>
+    </tr>
+    </table>
+    </center>
+</div>
+
+
+
+</body>
+</html>
